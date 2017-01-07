@@ -3,7 +3,7 @@ import cv2
 from matplotlib import pyplot as plt
 
 src_dir = "../data/"
-dst_dir = "../denoised_images/"
+dst_dir = "results/"
 paths = ["Lena01.jpg", "Lena02.jpg", "Lena03.jpg", "Lena04.jpg", "Lena05.jpg", "Lena06.GIF", "Lena07.GIF"]
 
 def gauss(img, ksize, s):
